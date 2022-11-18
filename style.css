@@ -1,36 +1,32 @@
-:root {
-    --first-color: burlywood;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--first-color);
+    background-color: burlywood;
 }
 
 header, ul, li{
     margin-top: 0;
 }
 
-.menu-h{
+ul.menu-h{
     list-style-type: none;
     padding: 0;
     background-color: #fff;
 }
 
-.menu-h li{
+ul.menu-h li{
     display: inline;
 }
 
-.menu-h li a{
+ul.menu-h li a{
     color: grey;
     padding: 20px;
     display: inline-block;
     text-decoration: none;
 }
 
-.menu-h li a:hover{
+ul.menu-h li a:hover{
     background-color: #66ffff;
 }
