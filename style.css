@@ -1,3 +1,98 @@
-body {
-    font-family: Montserrat, sans-serif;
+:root {
+    --first-color: #8cbfe6;
+    --second-color: #d940b3;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* header */
+
+header, ul, li{
+    margin-top: 0;
+}
+
+#header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul.menu-h{
+    text-align: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu-h li{
+    display: inline;
+    margin: 0;
+}
+
+.title,ul.menu-h li a{
+    padding: 20px;
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.8s;
+}
+
+ul.menu-h li a:hover{
+    color: var(--first-color);
+}
+
+/* main */
+
+.main-container{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.main-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#foto-perfil{
+    border: 30px hidden white;
+    border-radius: 50%;
+}
+
+.icons-social{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-social a i{
+    padding: 5px;
+}
+
+.subtitle{
+    margin-top: 20px;
+}
+
+.button{
+    margin-top: 30px;
+}
+
+.button a{
+    clear: none;
+    border: var(--first-color);
+    border-radius: 10px;
+    padding: 14px;
+    background-color: var(--first-color);
+}
+
+.button i{
+    padding-left: 10px;
+    background-color: var(--first-color);
 }
